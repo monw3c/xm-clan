@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>step | xm-clan</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="记录包括工程化，组件库，协作规范，基础知识等">
+    
+    <link rel="preload" href="/assets/css/0.styles.ea5a5e4f.css" as="style"><link rel="preload" href="/assets/js/app.3edaaca3.js" as="script"><link rel="preload" href="/assets/js/2.4afa7917.js" as="script"><link rel="preload" href="/assets/js/9.65c7a21f.js" as="script"><link rel="prefetch" href="/assets/js/10.cd7e318c.js"><link rel="prefetch" href="/assets/js/3.ce263b82.js"><link rel="prefetch" href="/assets/js/4.f2c31939.js"><link rel="prefetch" href="/assets/js/5.1470a048.js"><link rel="prefetch" href="/assets/js/6.b00d925a.js"><link rel="prefetch" href="/assets/js/7.6162c8aa.js"><link rel="prefetch" href="/assets/js/8.179cc25c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ea5a5e4f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">xm-clan</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/article/" class="nav-link router-link-active">
+  文章
+</a></div><div class="nav-item"><a href="https://github.com/monw3c/xmui" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xm-ui组件库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://juejin.cn/book/6844733817438076936" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  uni-app教程
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/monw3c/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  关注我
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/article/" class="nav-link router-link-active">
+  文章
+</a></div><div class="nav-item"><a href="https://github.com/monw3c/xmui" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  xm-ui组件库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://juejin.cn/book/6844733817438076936" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  uni-app教程
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/monw3c/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  关注我
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>前端工程化</span> <span class="arrow down"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="step"><a href="#step" class="header-anchor">#</a> step</h1> <p>步骤条 结合steps使用</p> <h2 id="组件结构"><a href="#组件结构" class="header-anchor">#</a> 组件结构</h2> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-class g-step-item {{parse.getClass(status,current,index)}} {{ direction === <span class="token punctuation">'</span>vertical<span class="token punctuation">'</span> ? <span class="token punctuation">'</span>g-step-vertical<span class="token punctuation">'</span> : <span class="token punctuation">'</span>g-step-horizontal<span class="token punctuation">'</span> }}<span class="token punctuation">&quot;</span></span> <span class="token style-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token style language-css"><span class="token punctuation">{</span><span class="token punctuation">{</span>parse.<span class="token function">getItemStyle</span><span class="token punctuation">(</span>len<span class="token punctuation">,</span>direction<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">}</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-ico<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-ico<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{{parse.noIco(status,current,index,icon)  }}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{ index+1 }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-ico<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>else</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>g-icon</span> <span class="token attr-name">g-icon-class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-ico-in<span class="token punctuation">&quot;</span></span> <span class="token attr-name">size</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>20<span class="token punctuation">&quot;</span></span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>#fff<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{{parse.getIcoClass(status,icon)}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>g-icon</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-line<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{{ index !== len - 1 }}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-main<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-title<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{{title !== <span class="token punctuation">'</span><span class="token punctuation">'</span>}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            {{title}}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-title<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>else</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-content<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{{content !== <span class="token punctuation">'</span><span class="token punctuation">'</span>}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            {{content}}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>g-step-item-content<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">wx:</span>else</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>content<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>wxs</span> <span class="token attr-name">module</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>parse<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> 
+var allStatus = ['wait','process','finish','error'];
+module.exports = {
+    noIco : function( status,current,index,icon ){
+        var aindex = allStatus.indexOf(status);
+        var noIcon = true;
+        if( index &lt; current || icon !== '' ){
+            noIcon = false;
+        }
+        return noIcon;
+    },
+    getIcoClass : function( status,ico ){
+        var class = '';
+        /*if( status === 'error' ){
+            class = 'cancel';
+        }else{
+            class = 'right';
+        } */
+        if( ico !== '' ){
+            class = ico;
+        }
+        return class;
+    },
+    getItemStyle : function(len,direction){
+        if( direction === 'horizontal' ){
+            return 'width :'+100/len + '%';
+        }else{
+            return 'width : 100%;';
+        }
+    },
+    getClass : function( status,current,index ) {
+        //wait、process、finish、error
+        var startClass = 'g-step-'
+        var classes = '';
+        var cindex = allStatus.indexOf( status );
+        if( cindex !== -1 ){
+            classes = startClass + allStatus[cindex];
+        }
+        if( index &lt; current ){
+            classes = startClass + 'finish';
+        }else if( index === current ){
+            classes = startClass + 'process';
+        }
+        return classes;
+    }
+}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>wxs</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="组件脚本"><a href="#组件脚本" class="header-anchor">#</a> 组件脚本</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    externalClasses<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'g-steps-class'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    properties<span class="token operator">:</span> <span class="token punctuation">{</span>
+        status<span class="token operator">:</span> <span class="token punctuation">{</span>
+            type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+            <span class="token comment">//wait、process、finish、error</span>
+            value<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        title<span class="token operator">:</span> <span class="token punctuation">{</span>
+            type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+            value<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        content<span class="token operator">:</span> <span class="token punctuation">{</span>
+            type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+            value<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        icon<span class="token operator">:</span> <span class="token punctuation">{</span>
+            type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+            value<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    options<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 在组件定义时的选项中启用多slot支持</span>
+        multipleSlots<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    relations<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">'../steps/steps'</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            type<span class="token operator">:</span> <span class="token string">'parent'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">//step length</span>
+        len<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token comment">//current in step index</span>
+        index<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token comment">//parent component select current index</span>
+        current<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token comment">//css direction</span>
+        direction<span class="token operator">:</span> <span class="token string">'horizontal'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function">updateDataChange</span><span class="token punctuation">(</span><span class="token parameter">options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setData</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                len<span class="token operator">:</span> options<span class="token punctuation">.</span>len<span class="token punctuation">,</span>
+                index<span class="token operator">:</span> options<span class="token punctuation">.</span>index<span class="token punctuation">,</span>
+                current<span class="token operator">:</span> options<span class="token punctuation">.</span>current<span class="token punctuation">,</span>
+                direction<span class="token operator">:</span> options<span class="token punctuation">.</span>direction
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="脚本说明"><a href="#脚本说明" class="header-anchor">#</a> 脚本说明</h2> <div class="language-js extra-class"><pre class="language-js"><code>
+</code></pre></div><h2 id="示例"><a href="#示例" class="header-anchor">#</a> 示例</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>g<span class="token operator">-</span>steps current<span class="token operator">=</span><span class="token string">&quot;{{currentStep}}&quot;</span> g<span class="token operator">-</span>steps<span class="token operator">-</span><span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;g-steps-class&quot;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>g<span class="token operator">-</span>step status<span class="token operator">=</span><span class="token string">&quot;finish&quot;</span> icon<span class="token operator">=</span><span class="token string">&quot;done&quot;</span><span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;title&quot;</span><span class="token operator">&gt;</span>
+                审核完成
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;content&quot;</span><span class="token operator">&gt;</span>
+              <span class="token number">2019.07</span><span class="token number">.13</span> <span class="token number">17</span><span class="token operator">:</span><span class="token number">04</span><span class="token operator">:</span><span class="token number">32</span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>g<span class="token operator">-</span>step<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>g<span class="token operator">-</span>step status<span class="token operator">=</span><span class="token string">&quot;process&quot;</span> icon<span class="token operator">=</span><span class="token string">&quot;wait&quot;</span><span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;title&quot;</span><span class="token operator">&gt;</span>
+              提交申请
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;content&quot;</span> <span class="token operator">&gt;</span>
+              <span class="token number">2019.07</span><span class="token number">.13</span> <span class="token number">17</span><span class="token operator">:</span><span class="token number">04</span><span class="token operator">:</span><span class="token number">32</span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>g<span class="token operator">-</span>step<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>g<span class="token operator">-</span>step status<span class="token operator">=</span><span class="token string">&quot;process&quot;</span> icon<span class="token operator">=</span><span class="token string">&quot;wait&quot;</span><span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;title&quot;</span><span class="token operator">&gt;</span>
+              审核中
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;content&quot;</span> <span class="token operator">&gt;</span>
+              <span class="token number">2019.07</span><span class="token number">.13</span> <span class="token number">17</span><span class="token operator">:</span><span class="token number">04</span><span class="token operator">:</span><span class="token number">32</span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>g<span class="token operator">-</span>step<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>g<span class="token operator">-</span>step status<span class="token operator">=</span><span class="token string">&quot;error&quot;</span> icon<span class="token operator">=</span><span class="token string">&quot;del&quot;</span><span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;title&quot;</span><span class="token operator">&gt;</span>
+              提交失败
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>view slot<span class="token operator">=</span><span class="token string">&quot;content&quot;</span><span class="token operator">&gt;</span>
+              <span class="token number">2019.07</span><span class="token number">.13</span> <span class="token number">17</span><span class="token operator">:</span><span class="token number">04</span><span class="token operator">:</span><span class="token number">32</span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>view<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>g<span class="token operator">-</span>step<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>g<span class="token operator">-</span>steps<span class="token operator">&gt;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/4/2021, 5:09:58 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.3edaaca3.js" defer></script><script src="/assets/js/2.4afa7917.js" defer></script><script src="/assets/js/9.65c7a21f.js" defer></script>
+  </body>
+</html>
