@@ -22,7 +22,7 @@ jobs:
           node-version: 13.2.0
       # 安装依赖
       - name: npm install
-        run: npm install
+        run: cnpm install
       # 打包
       - name: npm build
         run: npm run docs:build
