@@ -22,7 +22,7 @@ jobs:
           node-version: 13.2.0
       # 安装依赖
       - name: npm install
-        run: npm install -g yarn && yarn install
+        run: npm install -g yarn && yarn config set registry "https://registry.npm.taobao.org" && yarn install
       # 打包
       - name: npm build
         run: npm run docs:build
