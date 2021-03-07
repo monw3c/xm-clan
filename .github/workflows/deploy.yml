@@ -1,8 +1,5 @@
-name: GitHub Actions Build and Deploy Demo
-on:
-  push:
-    branches:
-      - master
+name: Build and Deploy
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -10,10 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+    - name: vuepress-deploy
+      uses: monw3c/xm-clan@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: dist
+        TARGET_REPO: username/repo
+        TARGET_BRANCH: master
         BUILD_SCRIPT: npm install && npm run docs:build
+        BUILD_DIR: dist/
