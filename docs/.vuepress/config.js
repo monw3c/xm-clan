@@ -1,7 +1,7 @@
 module.exports = {
     title: 'xm-clan',
     description: '记录包括工程化，组件库，协作规范，基础知识等',
-    base: "/",
+    base: "/xm-clan/",
     dest: "./dist",
     themeConfig: {
         nav: [
