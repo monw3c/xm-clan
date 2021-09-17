@@ -3,7 +3,7 @@ home: true
 heroImage: 
 actionText: 开始吧 →
 actionLink: /article/
-footer: [https://www.miit.gov.cn/](粤ICP备19153571号) | Copyright © 2020-present mon
+footer: (https://www.miit.gov.cn/) 粤ICP备19153571号 | Copyright © 2020-present mon
 features:
 - title: xm-standard
   details: 前端协作规范
